@@ -101,9 +101,9 @@ public class AltarOfInfusion extends AbstractCrafter<Infusion> {
 
                 // In
                 new ItemStack[] {
-                        new ItemStack(Material.TNT), SlimefunItems.EXPLOSIVE_PICKAXE, new ItemStack(Material.STONECUTTER),
+                        SlimefunItem.getById("CRY_CRYSTAL_COMMON_ELEMENTAL").getItem(), SlimefunItems.EXPLOSIVE_BOW, new ItemStack(Material.STONECUTTER),
                         AlchimiaItems.DARKSTEEL, validMelee, SlimefunItems.WITHER_PROOF_OBSIDIAN,
-                        new ItemStack(Material.REDSTONE_BLOCK), SlimefunItems.WITHER_PROOF_OBSIDIAN, new ItemStack(Material.TNT)
+                        new ItemStack(Material.REDSTONE_BLOCK), SlimefunItems.WITHER_PROOF_OBSIDIAN, SlimefunItem.getById("CRY_CRYSTAL_COMMON_ELEMENTAL").getItem()
                 }
             );
         }
